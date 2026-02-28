@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 50% 2%;
+    --foreground: 0 0% 12%;
+    --primary: 0 0% 95%;
+    --primary-foreground: 0 0% 12%;
+    --accent-cyan: 190 100% 50%;
+  }
+
+  body {
+    @apply bg-background text-primary antialiased min-h-screen overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
