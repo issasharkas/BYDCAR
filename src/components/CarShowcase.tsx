@@ -55,7 +55,7 @@ export function CarShowcase() {
                             }}
                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl md:text-7xl font-bold tracking-tighter text-white"
                         >
-                            Aggressive Stance
+                            BYD
                         </motion.h2>
 
                         <motion.h2
@@ -65,7 +65,7 @@ export function CarShowcase() {
                             }}
                             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl md:text-7xl font-bold tracking-tighter text-white"
                         >
-                            Aerodynamic Perfection
+                            SEAL 2026
                         </motion.h2>
 
                         <motion.h2
@@ -75,8 +75,8 @@ export function CarShowcase() {
                             }}
                             className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl font-bold tracking-tighter text-white text-left"
                         >
-                            Luxurious <br />
-                            <span className="text-accent-cyan">Interior</span>
+                            ORDER <br />
+                            <span className="text-accent-cyan">NOW</span>
                         </motion.h2>
                     </motion.div>
                 </div>
@@ -102,3 +102,4 @@ export function CarShowcase() {
         </section>
     );
 }
+
